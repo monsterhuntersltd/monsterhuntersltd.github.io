@@ -1,1 +1,13 @@
-
+/*Footer done by Elaine*/
+.footer {
+	height: 50px;
+	overflow: hidden;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	margin: 50px auto auto auto;
+	background-color: #191970
+	color: white;
+	text-align: center;
+}
