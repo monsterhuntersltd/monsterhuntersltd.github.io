@@ -47,11 +47,7 @@ color: white;
   margin-bottom:10px;
 }
 #icon-bar a:hover {				          /*navigation links*/
-<<<<<<< HEAD
-  background-color: purple; 			/*hover colour chosen by Danielle. Seriously I chose it.*/
-=======
   background-color: purple; 			/*hover colour chosen by DANILLE*/
->>>>>>> 3bd3da5ad5fe57c18b60e8ec62fda1eb1fa78e95
 }
 .left{						                  /*left-align columns*/
 float:left;
