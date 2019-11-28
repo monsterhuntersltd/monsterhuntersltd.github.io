@@ -11,16 +11,45 @@
 <title>Monster Hunters Ltd.</title>
 </head>
 <body>
-<!-- Navigation bar from W3Schools - to change for Hamburger Style and Our Page Links -->
-<div class="topnav">
-<link rel="stylesheet" type="text/css" href="GitHubRepositroyCss">
-	<div class="topnav">
-	<a href="index.htm" class="topnav">Home</a>
-	<a href="AboutMe.htm" class="topnav">About Me</a>
-	<a href="Portfolio.htm" class="topnav">Portfolio</a>
-	<a href="Contact.htm" class="topnav">Contact</a>
+<!--######################################################################-->
+<div id="navigation">
+	<a href="javascript:void(0);" onclick="myFunction()">
+	<div id="click-me">
+		<div class = "hamburger"></div>
+		<div class = "hamburger"></div>
+		<div class = "hamburger"></div>
+	</div></a>
+
+	<div id="icon-bar">
+		<div class = "left">
+			<h4 class="nav">Monster Hunters</h4>
+			<a href="LandingPage.html">Home</a> 
+			<a href="ContactUs.html">Contact</a></div>
+		<div class = "left">
+			<h4 class="nav">The Team</h4>
+			<a href="ProfilePageSarah.html">Sarah</a> 
+			<a href="ProfilePageElaine.html">Elaine</a>
+			<a href="ProfilePageNathan.html">Nathan</a> 
+			<a href="ProfilePageRobyn.html">Robyn</a>
+			<a href="ProfilePageDanielle.html">Danielle</a></div>
+		 <div class = "left">
+			<h4 class="nav">Reference</h4>
+			<a href="SurvivalGuidePage.html">Survival Guide</a>
+			<a href="MonsterTypes.html">Monster Guide</a>
+			<a href="MemorialPage.html">Memorial</a></div>
 	</div>
 </div>
+<script>
+function myFunction() { 			/*function definition*/
+  var x = document.getElementById("icon-bar");	/*getting information from icon-bar*/
+  if (x.style.display === "block") {		/*expanded condition*/
+    x.style.display = "none";			/*close it*/
+  } else {					/*collapsed condition*/
+    x.style.display = "block";			/*open it*/
+  }
+}
+</script>
+<!--######################################################################-->
   
 <!-- Minimalist webpage inspiration from: Awwwards compilation of best minimal webpages: https://www.awwwards.com/websites/minimal/ -->
 <div class="Title">
