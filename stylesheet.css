@@ -144,3 +144,10 @@ width:110px;
 
 Sarah Bencic 
 Source https://codepen.io/tamak/pen/hzEer */
+
+/* centering the header for our webpage to be centered beside the hamburger nav bar- Robyn Northway Nov 28/19 */
+h1 {
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-family: Bookman Old Style;}
