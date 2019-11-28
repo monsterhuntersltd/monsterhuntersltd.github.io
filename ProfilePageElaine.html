@@ -8,36 +8,45 @@
 <title>Elaine's Profile</title>
 </head>
 <body>
-<div id="navheader">
-<h1> MONSTER HUNTERS LTD. </h2>
-	<div id="navigation">
-		<a href="javascript:void(0);" onclick="myFunction()">
-		<div id="click-me">
-			<div class = "hamburger"></div>
-			<div class = "hamburger"></div>
-			<div class = "hamburger"></div>
-		</div></a>
+<!--######################################################################-->
+<div id="navigation">
+	<a href="javascript:void(0);" onclick="myFunction()">
+	<div id="click-me">
+		<div class = "hamburger"></div>
+		<div class = "hamburger"></div>
+		<div class = "hamburger"></div>
+	</div></a>
 
-		<div id="icon-bar">
-			<div class = "left">
-				<h4 class="nav">Monster Hunters</h4>
-				<a href="#">Home</a> 
-				<a href="#">Contact</a></div>
-			<div class = "left">
-				<h4 class="nav">The Team</h4>
-				<a href="#">Sarah</a> 
-				<a href="#">Elaine</a>
-				<a href="#">Nathan</a> 
-				<a href="#">Robyn</a>
-				<a href="#">Danielle</a></div>
-			<div class = "left">
-				<h4 class="nav">Reference</h4>
-				<a href="#">Survival Guide</a>
-				<a href="#">Monster Guide</a>
-               		<a href="#">Memorial</a></div>
-		</div>
+	<div id="icon-bar">
+		<div class = "left">
+			<h4 class="nav">Monster Hunters</h4>
+			<a href="LandingPage.html">Home</a> 
+			<a href="ContactUs.html">Contact</a></div>
+		<div class = "left">
+			<h4 class="nav">The Team</h4>
+			<a href="ProfilePageSarah.html">Sarah</a> 
+			<a href="ProfilePageElaine.html">Elaine</a>
+			<a href="ProfilePageNathan.html">Nathan</a> 
+			<a href="ProfilePageRobyn.html">Robyn</a>
+			<a href="ProfilePageDanielle.html">Danielle</a></div>
+		 <div class = "left">
+			<h4 class="nav">Reference</h4>
+			<a href="SurvivalGuidePage.html">Survival Guide</a>
+			<a href="MonsterTypes.html">Monster Guide</a>
+            <a href="MemorialPage.html">Memorial</a></div>
 	</div>
 </div>
+<script>
+function myFunction() { 			/*function definition*/
+  var x = document.getElementById("icon-bar");	/*getting information from icon-bar*/
+  if (x.style.display === "block") {		/*expanded condition*/
+    x.style.display = "none";			/*close it*/
+  } else {					/*collapsed condition*/
+    x.style.display = "block";			/*open it*/
+  }
+}
+</script>
+<!--######################################################################-->
 
 <h2>Elaine ( Profile<h2>
 <div id="image">
