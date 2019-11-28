@@ -69,13 +69,14 @@ Donec ac odio tempor orci dapibus. Accumsan lacus vel facilisis volutpat est vel
 </div>
 
 <!-- ########### BARS BEGIN ##### -->
+
+<script>
 jQuery(document).ready(function(){
-	jQuery('.skillbar').each(function(){
-		jQuery(this).find('.skillbar-bar').animate({
-			width:jQuery(this).attr('data-percent')
-		},6000);
-	});
-});
+jQuery('.skillbar').each(function(){
+jQuery(this).find('.skillbar-bar').animate({
+width:jQuery(this).attr('data-percent')
+},6000);});});
+</script>
 
 <div class="skillbar clearfix " data-percent="20%">
 	<div class="skillbar-title" style="background: #d35400;"><span>HTML5</span></div>
