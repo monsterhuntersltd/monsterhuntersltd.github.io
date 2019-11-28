@@ -68,11 +68,28 @@ Donec ac odio tempor orci dapibus. Accumsan lacus vel facilisis volutpat est vel
 <p>Mountain Climber....Expert Level</p>
 </div>
 
-<h3> Stats go here </h3>
-<div id="stats"> 
-<p> blaasaarrgggsgsss nonsense </p>
-</div>
+<!-- ########### BARS BEGIN ##### -->
+jQuery(document).ready(function(){
+	jQuery('.skillbar').each(function(){
+		jQuery(this).find('.skillbar-bar').animate({
+			width:jQuery(this).attr('data-percent')
+		},6000);
+	});
+});
 
+<div class="skillbar clearfix " data-percent="20%">
+	<div class="skillbar-title" style="background: #d35400;"><span>HTML5</span></div>
+	<div class="skillbar-bar" style="background: #e67e22;"></div>
+	<div class="skill-bar-percent">20%</div>
+</div> <!-- End Skill Bar -->
+
+<div class="skillbar clearfix " data-percent="25%">
+	<div class="skillbar-title" style="background: #2980b9;"><span>CSS3</span></div>
+	<div class="skillbar-bar" style="background: #3498db;"></div>
+	<div class="skill-bar-percent">25%</div>
+</div> <!-- End Skill Bar -->
+
+<!-- ########### BARS END ##### -->
 <div class="footer">
 	<p> Have a monster problem? Call Monster Hunters at: 1-800-NEEDHELP</p>
 </div>
