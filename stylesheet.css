@@ -8,7 +8,7 @@
 	width: 100%;
 	margin: 50px auto auto auto;
 	display: block;
-	background-color: hsl(0, 0%, 0%); /*Robyn's change footer colour to black using code from http://hslpicker.com/ using hsl colour code allows me to adjust the brightness to suit our scheme*/
+	background-color: hsl(0, 0%, 5%); /*Robyn's change footer colour to 5% black using code from http://hslpicker.com/ using hsl colour code allows me to adjust the brightness to suit our scheme*/
 	color: white;
 	text-align: center;
 }
@@ -156,4 +156,3 @@ h1 {
 body {
 	background-color: hsl(271, 100%, 8%);
 } /* Robyn changed the background colour for the website to midnight blue, recieved code from: http://hslpicker.com*/
-
