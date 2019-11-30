@@ -184,7 +184,7 @@ body {
 	position: relative;
 	background-color:hsl(0, 0%,5%);
 }
-/* image alignment code borrowed from HTML & CSS text written by Jon Duckett*/	
+/* Robyn - image alignment code borrowed from HTML & CSS text written by Jon Duckett*/	
 img.align-left {
 	float:left;
 	margin-right:15px;
