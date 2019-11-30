@@ -182,6 +182,7 @@ body {
 	margin: 50px;
 	display: block;
 	position: relative;
+	border-radius: 5px;
 	background-color:hsl(0, 0%,5%);
 }
 /* Robyn - image alignment code borrowed from HTML & CSS text written by Jon Duckett*/	
