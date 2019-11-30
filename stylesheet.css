@@ -158,7 +158,7 @@ h2 {
 	 width: 940px;
 	 background-color: hsl(0, 0%, 5%);
 	 color: hsla(0,0%,80%,1);
-	 text-align: center;
+	 text-align: left;
 	 font-family: "Century Gothic";
  }
 /* Robyn adjusted fonts and colour for h3 headers*/
@@ -166,7 +166,7 @@ h3 {
 	 width: 940px;
 	 background-color: hsl(0, 0%, 5%);
 	 color: hsla(0,0%,80%,1);
-	 text-align: center;
+	 text-align: left;
 	 font-family: "Century Gothic";
 }
 /* Robyn changed the background colour for the website to midnight blue/purple colour, recieved code from: http://hslpicker.com*/
