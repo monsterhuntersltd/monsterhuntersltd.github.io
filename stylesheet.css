@@ -17,12 +17,12 @@
 
 /* This part by Nathan November 27, 2019 */
 
-body{
+/* body{
 font-family: arial;
-margin: 5% 10% 0% 10%;				      /*top right bottom left*/
+margin: 5% 10% 0% 10%;				      top right bottom left
 background-color:#222;
 color: white;
-}
+} commented this out because it was conflicting with opver css adjustments - Robyn*/
 .hamburger {					              /*hamburger bars*/
   width: 35px;					            /*bar width*/
   height: 5px;					            /*bar height*/
@@ -60,10 +60,10 @@ color:white;
 
 /* Sarah Bencic
 CSS for Skill Bars */
-body {
+/*body {
   font-family: 'Ubuntu', sans-serif;
   width:960px;
-}
+} Robyn Commented this out so the paragraph styling css would work across all the webpages*/
 
 p{
   color:#525252;
