@@ -172,4 +172,12 @@ h3 {
 /* Robyn changed the background colour for the website to midnight blue/purple colour, recieved code from: http://hslpicker.com*/
 body {
 	 background-color: hsl(271, 100%, 8%);
-} 
+}
+/* Robyn adjusted the paragraph style to flow throughout all the web pages */
+ p { 
+	 color: hsla(0,0%,80%,1);
+	 text-align:left;
+	 font-family: "Century Gothic";
+	 font-size:12px;
+	 letter-spacing: 0.05em;
+}
