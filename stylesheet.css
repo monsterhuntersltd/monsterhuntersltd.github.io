@@ -173,6 +173,15 @@ h3 {
 body {
 	 background-color: hsl(271, 100%, 8%);
 }
+/*Robyn Adjusted the page id tag*/
+#page {
+	width:960px;
+	height: 100%;
+	padding:75px;
+	margin: 100px;
+	position: relative;
+	background-color:hsl(0, 0%,5%);
+	
 /* Robyn adjusted the paragraph style to flow throughout all the web pages */
  p { 
 	 color: hsla(0,0%,80%,1);
