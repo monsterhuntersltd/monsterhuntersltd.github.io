@@ -177,8 +177,8 @@ body {
 #page {
 	width:960px;
 	height: 100%;
-	padding:75px;
-	margin: 100px;
+	padding:50px;
+	margin: 50px;
 	position: relative;
 	background-color:hsl(0, 0%,5%);
 	
