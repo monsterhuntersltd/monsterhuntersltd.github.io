@@ -167,8 +167,15 @@ h3 {
 	 text-align: left;
 	 font-family: "Century Gothic";
 }
-/* Robyn changed the background colour for the website to midnight blue, recieved code from: http://hslpicker.com*/
+/* Robyn changed the background colour for the website to midnight blue, recieved code from: http://hslpicker.com* also added some sizing changes*/
 body {
+	max-width: 960px;
+	max-height: 100%;
+	padding:30px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	border-radius: 5px;
 	background-color: hsl(271, 100%, 8%);
 } 
 /* Robyn changed the paragraph format*/
@@ -182,8 +189,8 @@ body {
 #page {
 	width:960px;
 	height: 100%;
-	padding:50px;
-	margin: 50px;
+	padding:30px;
+	margin: 10px;
 	position: relative;
 	border-radius: 5px;
 	background-color:hsl(0, 0%,5%);
