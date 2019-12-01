@@ -223,3 +223,44 @@ img.align-left {
 	margin-right:5px;
 	display: block;
 }
+
+/* Danielle added contact form and applied CSS to it - inspired by https://www.quackit.com/html/codes/html_form_code.cfm */
+.myForm { 
+	font-family: "Century Gothic";
+	font-size: 12px;
+	width: 500px;
+	padding: 5px;
+	border: 5px solid hsl(271, 100%, 8%);
+}
+
+.myForm * {
+	box-sizing: border-box;
+}
+		
+.myForm fieldset {
+	border: none;
+	padding: 0;
+}
+
+.myForm label.choice {
+	font-size: 0.9em;
+	font-weight: normal;
+}
+
+.myForm textarea {
+	height: 150px;
+}
+
+.myForm button {
+	padding: 1em;
+	border-radius: 0.5em;
+	background: #eee;
+	border: none;
+	font-weight: bold;
+	margin-top: 1em;
+}
+	
+	.myForm button:hover {
+	background: #ccc;
+	cursor: pointer;
+}

@@ -5,8 +5,27 @@
 <!-- code was "borrowed" from w3schools.com -->
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Robyn's Profile</title>
+<title>Contact page</title>
+
+<script>
+function QuoteUs(){
+	var form = document.getElementById('Monster Hunter Quote'); /* this code is from the textbook*/
+
+	addEvent(form, 'submit', function(e) {
+		e.preventDefault();
+		var elements = this.elements; 
+		var username = elements.username.value
+		var msg = 'Welcome' + username;
+		document.getElementById('main').textContent = msg;
+	});
+}; 
+
+</script>
+
+
 </head>
+
+
 <body>
   
 <!--######################################################################-->
@@ -37,7 +56,9 @@
             <a href="MemorialPage.html">Memorial</a></div>
 	</div>
 </div>
+
 <script>
+
 function myFunction() { 			/*function definition*/
   var x = document.getElementById("icon-bar");	/*getting information from icon-bar*/
   if (x.style.display === "block") {		/*expanded condition*/
@@ -46,23 +67,82 @@ function myFunction() { 			/*function definition*/
     x.style.display = "block";			/*open it*/
   }
 }
+
 </script>
 <!--######################################################################-->
 
 <!-- Minimalist webpage inspiration from: Awwwards compilation of best minimal webpages: https://www.awwwards.com/websites/minimal/ -->
 </div>
 
+<h2>Get a quote for all of your monster hunting needs!</h2>
+
+<!-- Written by Danielle - Following code for 'contact form' inspired bb=y: https://www.quackit.com/html/codes/html_form_code.cfm -->
+
+<form class="myForm" method='get' 
+enctype="application/xwww-form-urlencoded"
+action="/html/codes/html_form_handler.cfm">
+
+<p>
+<label> Please write your full name:
+<input type="text" name="customer_name" required>
+</label> 
+</p>
+
+<p>
+<label> Please write your email address:
+<input type="text" name="email_address" required>
+</label> 
+</p>
+
+
+<p>
+<label> Please enter your phone number:
+<input type="text" name="phone_number" required>
+</label> 
+</p>
+
+<p>
+<label> Please enter your location in City/State/Country format:
+<input type="text" name="location" required>
+</label> 
+</p>
+
+<p>
+<label> Please choose your type of situation:
+<select id="monster_situation" name="monster_situation">
+<option value="" selected="selected">Your Situation</option>
+<option value="bed_closet" >Monster under the bed or in closet</option>
+<option value="under_ground" >Monster in underground area</option>
+<option value="hostage_sit" >Monster hostage situation (need negotiator)</option>
+<option value="fire_ability" >Monster that produces fire</option>
+<option value="water_place" >Monster in ocean or lake or river</option>
+<option value="forest_area" >Monster in forested area</option>
+<option value="flying_close" >Monster flying too close to buidings</option>
+<option value="unknown" >Monster that is unknown (don't know what it does)</option>
+</select>
+</label> 
+</p>
+
+<p>
+<label>Add details abour your monster situation:
+<textarea name="situation_details" maxlength="750"></textarea>
+</label>
+</p>
+
+</form>
+
+<!--######################################################################-->
+
 <div id="profile">
 <!--Dragon’s Dogma and other RPG Charater Profiles for Inspiration -->
-<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac tortor vitae purus faucibus ornare suspendisse. Massa enim nec dui nunc. Nulla posuere sollicitudin aliquam ultrices sagittis orci a scelerisque. Nec ullamcorper sit amet risus nullam eget felis eget nunc. Elit ullamcorper dignissim cras tincidunt lobortis feugiat. Feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat. Maecenas sed enim ut sem viverra aliquet eget sit. Ac auctor augue mauris augue neque gravida in fermentum et. Quam id leo in vitae. Iaculis at erat pellentesque adipiscing commodo elit. Mi bibendum neque egestas congue quisque egestas diam in. Purus ut faucibus pulvinar elementum integer enim neque.
-
-Donec ac odio tempor orci dapibus. Accumsan lacus vel facilisis volutpat est velit egestas dui id. Sit amet cursus sit amet dictum sit amet. Vulputate odio ut enim blandit volutpat maecenas volutpat blandit aliquam. Vel facilisis volutpat est velit egestas dui. Cras sed felis eget velit aliquet sagittis id consectetur. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Nibh praesent tristique magna sit amet purus gravida quis blandit. Vulputate sapien nec sagittis aliquam malesuada. Sociis natoque penatibus et magnis dis parturient montes. Orci dapibus ultrices in iaculis nunc. Nunc id cursus metus aliquam eleifend. Risus sed vulputate odio ut enim blandit volutpat maecenas volutpat.
+<p> 
+FOR EMERGENCIES please call our help line! 1-800-HELP-NOW
 </p>
 </div>
 
 
 <div class="footer">
-	<p> Have a monster problem? Call Monster Hunters at: 1-800-NEEDHELP</p>
+	<p> Have a monster problem? Call Monster Hunters at: 1-800-NEED-HELP</p>
 </div>
 
 </body>
