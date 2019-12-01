@@ -5,10 +5,12 @@
 <!-- Was supposed to help with making the screen dynamic but didn't really work on my personal Page -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
-<title>Monster Hunters Ltd.</title>
+<title>Sarah's Profile</title>
 
 </head>
 <body>
+<div id="page"> <!-- Robyn and Elaine created a div for the page to create a box for content and change the colour from the background -->
+<h1> MONSTER HUNTERS LTD.</h1> <!--Robyn Moved the h1 "Monster Hunters Ltd. to the top-->
 <!--######################################################################-->
 <div id="navigation">
 	<a href="javascript:void(0);" onclick="myFunction()">
@@ -50,12 +52,13 @@ function myFunction() { 			/*function definition*/
 <!--######################################################################-->
 
 <!-- Minimalist webpage inspiration from: Awwwards compilation of best minimal webpages: https://www.awwwards.com/websites/minimal/ -->
-<div class="SubTitle">
-<link rel="stylesheet" type="text/css" href="GitHubRepositoryCss">
 <h2>Sarah's Profile</h2> <!-- Robyn changed type of header and adjusted title -->
+
+<div id="image"> <!-- Robyn added image div and temp image -->
+<img src="/images/TreePlanting_SarahRobyn_LumbyBC1.jpg" alt="treeplantingrobyn" class="align-left">
+<!-- Minimalist webpage inspiration from: Awwwards compilation of best minimal webpages: https://www.awwwards.com/websites/minimal/ -->
 </div>
-<!-- Profile Photo - Layout like a file on a spy target?/ Video Game file?-->
-<div class="Bio">
+<div class="profile"> <!-- Robyn changed div to match with CSS stylesheet -->
 <!--Dragon’s Dogma and other RPG Charater Profiles for Inspiration -->
 <p> Just your average archer, dragon hunter extraordinair with her trusty hell-hound Captain Frederick Wentworth at her side to solve all of your goulish creature conundrums. I do have a soft spot for some of your more harmless leviathan and adjusting werewolf but otherwise I am the ruthless monster slayer here to save you Saturday from certain savagery in the Middle Nomadian District of Noom. 
 </p>
@@ -64,7 +67,7 @@ function myFunction() { 			/*function definition*/
 </p>
 <p> My tamaniu is a great bear, my star sign is picese and my Meyers Briggs is INFJ. If you think I would be suitable for any of your upcoming quests please request me through our contact form. Pricing and travel details to be arranged on request. I also work with colleagues of mine on more extensive ventures
 </p>
-
+</div>
 <!-- Sarah Bencic-->
 <!--skills table or with those scales -->
 <!-- https://codepen.io/tamak/pen/hzEer skill bars animted with Javascript thought it could be a good way to use javascript and show people's "skills"-->
@@ -110,15 +113,14 @@ function myFunction() { 			/*function definition*/
 	<div class="skill-bar-percent">100%</div>
 </div> <!-- End Skill Bar - Botany Sarah Bencic-->
 
-<!-->SOURCE http://w3lessons.info/2013/06/04/skill-bar-with-jquery-css3/</><-->
+<!--SOURCE http://w3lessons.info/2013/06/04/skill-bar-with-jquery-css3/</>-->
 <!-- Sarah Bencic-->
 	
-<div class="Title">
-<h1>Monster Hunters Ltd.</h1>
-</div>
+<!--Robyn moved Monster Hunter Ltd. to the top-->
 <div class="footer">
-	<p> Have a monster problem? Call Monster Hunters at: </p>
+	<p class="footer"> Have a monster problem? Call Monster Hunters at: </p>
 </div>
 
+</div> <!--Robyn added closing div tag for id="page"-->
 </body>
 </html>
