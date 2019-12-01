@@ -50,7 +50,7 @@ function myFunction() { 			/*function definition*/
 }
 </script>
 <!--######################################################################-->
-
+	
 <h2>Nathan's Profile<h2>
 <div id="image">
 <img src="/images/TreePlanting_SarahRobyn_LumbyBC1.jpg" alt="treeplantingrobyn" class="align-left"> <!--Robyn added temp photo for sizing and such -->
@@ -65,7 +65,7 @@ function myFunction() { 			/*function definition*/
 <!--skills table or with those scales -->
 <!-- https://codepen.io/tamak/pen/hzEer skill bars animted with Javascript thought it could be a good way to use javascript and show people's "skills"-->
 
-<div id="skills">
+<div id="skills" style="float:left; display:block;">
 <h3>Skills</h3>
 <p>Mountain Climber....Expert Level</p>
 </div>
@@ -80,13 +80,13 @@ width:jQuery(this).attr('data-percent')
 },6000);});});
 </script>
 
-<div class="skillbar" data-percent="90%">
+<div class="skillbar clearfix" data-percent="90%">
 	<div class="skillbar-title" style="background: #d35400;"><span>Agility</span></div>
 	<div class="skillbar-bar" style="background: #e67e22;"></div>
 	<div class="skill-bar-percent">90%</div>
 </div> <!-- End Skill Bar -->
 
-<div class="skillbar" data-percent="30%">
+<div class="skillbar clearfix" data-percent="30%">
 	<div class="skillbar-title" style="background: #2980b9;"><span>Common Sense</span></div>
 	<div class="skillbar-bar" style="background: #3498db;"></div>
 	<div class="skill-bar-percent">30%</div>
