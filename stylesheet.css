@@ -200,7 +200,7 @@ body {
 /* Robyn created profile div id and applied CSS*/
 #profile {
 	/*width:400px;*/
-	float: right;
+	float: left;
 	height:100%;
 	padding: 5px;
 	margin-left: 5px;
