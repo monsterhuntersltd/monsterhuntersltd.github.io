@@ -147,20 +147,20 @@ h1 {
 }
 
  h2 {
-	 max-width: 940px;
+	 width: 940px;
 	 color: hsla(0,0%,80%,1);
 	 text-align: left;
 	 font-family: "Century Gothic";
  }
 h3 {
-	 max-width: 940px;
+	 width: 940px;
 	 color: hsla(0,0%,80%,1);
 	 text-align: left;
 	 font-family: "Century Gothic";
 }
 /* Robyn changed the background colour for the website to midnight blue, recieved code from: http://hslpicker.com* also added some sizing changes*/
 body {
-	max-width: 960px;
+	width: 960px;
 	max-height: 100%;
 	padding:30px;
 	margin-right: auto;
@@ -178,7 +178,7 @@ body {
 	 letter-spacing: 0.05em;
 } /* Robyn created a div id="page" and applied CSS*/
 #page {
-	max-width:960px;
+	width:960px;
 	min-height: 750px; /*Robyn adjusted the height with a min and over flow using code via: https://stackoverflow.com/questions/2920114/how-to-auto-adjust-the-div-height-according-to-content-in-it*/
 	overflow:hidden;
 	padding:30px;
@@ -190,7 +190,7 @@ body {
 }
 /* Robyn created profile div id and applied CSS*/
 #profile {
-	max-width:390px;
+	width:400px;
 	float: right;
 	height:100%;
 	padding: 5px;
@@ -199,7 +199,7 @@ body {
 }
 /* Robyn created image div id and applied CSS*/
 #image {
-	width:490px;
+	width:500px;
 	float: left;
 	/*height: 720px;*/
 	padding:5px;
