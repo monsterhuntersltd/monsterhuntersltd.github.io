@@ -150,7 +150,6 @@ Source https://codepen.io/tamak/pen/hzEer */
 
 /* attempt to center the header for our webpage to be centered beside the hamburger nav bar- Robyn Northway Nov 28/19 */
 h1 {
-	background-color: hsl(0, 0%, 5%);
 	color: hsla(0,0%,80%,1);
 	text-align: center;
 	font-family: Bookman Old Style;
@@ -158,14 +157,12 @@ h1 {
 
  h2 {
 	 width: 940px;
-	 background-color: hsl(0, 0%, 5%);
 	 color: hsla(0,0%,80%,1);
 	 text-align: left;
 	 font-family: "Century Gothic";
  }
 h3 {
 	 width: 940px;
-	 background-color: hsl(0, 0%, 5%);
 	 color: hsla(0,0%,80%,1);
 	 text-align: left;
 	 font-family: "Century Gothic";
