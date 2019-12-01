@@ -199,7 +199,7 @@ body {
 }
 /* Robyn created profile div id and applied CSS*/
 #profile {
-	width:400px;
+	/*width:400px;*/
 	float: right;
 	height:100%;
 	padding: 5px;
@@ -208,14 +208,20 @@ body {
 }
 /* Robyn created image div id and applied CSS*/
 #image {
-	width:500px;
+	/*width:500px;*/
 	float: left;
-	height: 720px;
+	/*height: 720px;*/
 	padding:5px;
 	margin-top: 20px;
 	margin-right:5px;
 	display: block;
 }
+
+#skills {	/*Nathan*/
+	float: left;
+	display: block;
+}
+
 /* Robyn - image alignment code borrowed from HTML & CSS text written by Jon Duckett*/	
 img.align-left {
 	float:left;
