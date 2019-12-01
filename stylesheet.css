@@ -62,15 +62,6 @@ color:white;
 
 /* Sarah Bencic
 CSS for Skill Bars */
-body {
-  font-family: 'Ubuntu', sans-serif;
-  max-width:960px;
-}
-
-/*p{
-  color:#525252;
-  font-size:12px;
-}*/
 
 .skillbar {
 	position:relative;
@@ -199,7 +190,7 @@ body {
 }
 /* Robyn created profile div id and applied CSS*/
 #profile {
-	max-width:400px;
+	max-width:390px;
 	float: right;
 	height:100%;
 	padding: 5px;
@@ -208,9 +199,9 @@ body {
 }
 /* Robyn created image div id and applied CSS*/
 #image {
-	width:500px;
+	width:490px;
 	float: left;
-	height: 720px;
+	/*height: 720px;*/
 	padding:5px;
 	margin-top: 20px;
 	margin-right:5px;
