@@ -217,17 +217,12 @@ body {
 	display: block;
 }
 
-#skills {	/*Nathan*/
-	float: left;
-	display: block;
-}
-
 /* Robyn - image alignment code borrowed from HTML & CSS text written by Jon Duckett*/	
 img.align-left {
 	float:left;
 	margin-right:15px;
 }
-/* Robyn added skills div id and applied CSS to it -->
+/* Robyn added skills div id and applied CSS to it -->*/
 #skills {
 	width:900px;
 	float: left;
