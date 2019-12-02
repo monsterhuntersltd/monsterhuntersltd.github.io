@@ -274,7 +274,7 @@ padding: 5px;
 	margin-top: 1em;
 }
 	
-	.myForm button:hover {
+.myForm button:hover {
 	background: #ccc;
 	cursor: pointer;
 }

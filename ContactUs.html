@@ -21,9 +21,9 @@ function QuoteUs(){
 }; 
 
 function getQuote() { 		
-  var x = document.getElementById("quotepage");	/*getting information from .quotepage class*/
-  if (x.style.display === "none") {		/*hidden at first*/
-    x.style.display = "block";			/*shows message*/
+  var y = document.getElementById("quotepage");	/*getting information from .quotepage class*/
+  if (y.style.display === "none") {		/*hidden at first*/
+    y.style.display = "block";			/*shows message*/
   }
 }
 
@@ -136,13 +136,11 @@ action="/html/codes/html_form_handler.cfm">
 </label>
 </p>
 
-<p><button>Get A Quote</button></p>
+<p><button><a href="javascript:void(0);" onclick="getQuote()">Get A Quote</a></button></p>
 
 <p id="quotepage" >Your message has been submitted succesfully</p>
 
 </form>
-
-
 
 
 <!--######################################################################-->
