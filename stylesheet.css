@@ -233,6 +233,20 @@ img.align-left {
 	border: 5px solid hsla(272, 63%, 19%, 0.699);
 }
 
+.myForm input[type="text"],
+.myForm input[type="email"],
+.myForm input[type="tel"],
+.myForm input[type="text"],
+.myForm select,
+.myForm textarea {
+display: block;
+width: 100%;
+border: 1px solid rgba(226, 210, 252, 0.877);
+font-family: "Century Gothic";
+font-size: 12px;
+padding: 5px;
+}
+
 .myForm * {
 	box-sizing: border-box;
 }
