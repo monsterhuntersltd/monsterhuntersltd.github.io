@@ -278,3 +278,7 @@ padding: 5px;
 	background: #ccc;
 	cursor: pointer;
 }
+
+#quotepage {
+	display: none;
+}

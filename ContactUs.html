@@ -20,6 +20,13 @@ function QuoteUs(){
 	});
 }; 
 
+function getQuote() { 		
+  var x = document.getElementById("quotepage");	/*getting information from .quotepage class*/
+  if (x.style.display === "none") {		/*hidden at first*/
+    x.style.display = "block";			/*shows message*/
+  }
+}
+
 </script>
 
 
@@ -131,7 +138,9 @@ action="/html/codes/html_form_handler.cfm">
 
 <p><button>Get A Quote</button></p>
 
+<p class="quotepage" >Your message has been submitted succesfully</p>
 </form>
+
 
 <!--######################################################################-->
 
