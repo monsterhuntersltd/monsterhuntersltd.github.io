@@ -33,8 +33,8 @@ color: white;
   margin: 6px 0px;				          /*spacing between bars*/
 }
 
-#hamburger a:hover{
-	color: orange;	
+.hamburger: hover{
+background-color: orange;
 }
 
 #icon-bar {				                  /*navigation pop up*/
