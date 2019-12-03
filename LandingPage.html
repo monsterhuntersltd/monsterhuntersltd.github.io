@@ -77,13 +77,9 @@ function onYouTubeIframeAPIReady() {
 		cc_load_policy: 0, // Hide closed captions
 		iv_load_policy: 3,  // Hide the Video Annotations
 		autohide: 0,	   // Hide video controls when playing
-		mute: 1,	   // Mute sound on video
+		mute: 0,	   // Mute sound on video
 		},
-    },
-    	events: {
-      		onReady: function(e) {
-        	e.target.mute();
-     	 }
+   	 },
     }
   });
  }
