@@ -153,21 +153,18 @@ CSS for Skill Bars */
 /* Sarah Bencic 
 Source https://codepen.io/tamak/pen/hzEer */
 
-/* attempt to center the header for our webpage to be centered beside the hamburger nav bar- Robyn Northway Nov 28/19 */
+/* Center the header, h2 and h3  for our webpage - Elaine Bradbee and Robyn Northway Nov 28/19 */
 h1 {
 	color: hsla(0,0%,80%,1);
 	text-align: center;
 	font-family: Bookman Old Style;
 }
-
  h2 {
-	 width: 940px;
 	 color: hsla(0,0%,80%,1);
 	 text-align: left;
 	 font-family: "Century Gothic";
  }
-h3 {
-	 width: 940px;
+ h3 {
 	 color: hsla(0,0%,80%,1);
 	 text-align: left;
 	 font-family: "Century Gothic";
