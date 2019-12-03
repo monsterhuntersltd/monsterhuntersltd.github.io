@@ -1,4 +1,4 @@
-/*Footer done by Elaine November 27, 2019*/
+/*Footer done by Elaine November 27, 2019, inspired by stackoverflow*/
 .footer {
 	height: 50px;
 	overflow: hidden;
@@ -163,6 +163,7 @@ body {
 	width: 960px;
 	max-height: 100%;
 	padding:30px;
+	paddding-bottom: 50px;
 	margin-right: auto;
 	margin-left: auto;
 	position: relative;
