@@ -11,6 +11,7 @@
 	background-color: 	hsl(0, 0%, 5%);
 	color: white;
 	text-align: center;
+	font-family: "Century Gothic";
 }
 	
 
@@ -31,6 +32,11 @@ color: white;
   background-color: hsla(0,0%,80%,1);			  /*bar colour*/
   margin: 6px 0px;				          /*spacing between bars*/
 }
+
+#hamburger a:hover{
+	color: orange;	
+}
+
 #icon-bar {				                  /*navigation pop up*/
   background-color: #333;
   position: absolute;				        /*anchored to page*/
@@ -47,6 +53,7 @@ color: white;
   background-color: #444;
   margin-left:10px;
   margin-bottom:10px;
+  font-family: "Century Gothic";
 }
 #icon-bar a:hover {				          /*navigation links*/
   background-color: purple; 			/*hover colour chosen by DANILLE*/
