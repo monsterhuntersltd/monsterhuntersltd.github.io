@@ -33,9 +33,16 @@ color: white;
   margin: 6px 0px;				          /*spacing between bars*/
 }
 
-.hamburger: hover{
-background-color: orange;
+#click-me {
+width: 35px;
 }
+
+#click-me:hover .hamburger{
+background-color:orange;
+}	
+
+/*https://stackoverflow.com/questions/6910049/on-a-css-hover-event-can-i-change-another-divs-styling*/
+/*http://jsfiddle.net/u7tYE/*/
 
 #icon-bar {				                  /*navigation pop up*/
   background-color: #333;
