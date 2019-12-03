@@ -8,8 +8,8 @@
 	width: 100%;
 	margin: 50px auto auto auto;
 	display: block;
-	background-color: 	hsl(0, 0%, 5%);
-	color: white;
+	background-color: hsl(0, 0%, 5%);
+	color: hsla(0,0%,80%,1);
 	text-align: center;
 	font-family: "Century Gothic";
 }
@@ -169,16 +169,8 @@ h1 {
 	 text-align: left;
 	 font-family: "Century Gothic";
 }
-/* Robyn changed the background colour for the website to midnight blue, recieved code from: http://hslpicker.com* also added some sizing changes*/
+/* Robyn changed the background colour to the body of the website, recieved code from: http://hslpicker.com* also added some sizing changes*/
 body {
-	width: 960px;
-	max-height: 100%;
-	padding:30px;
-	padding-bottom: 50px;
-	margin-right: auto;
-	margin-left: auto;
-	position: relative;
-	border-radius: 5px;
 	background-color: hsl(271, 100%, 8%);
 } 
 /* Robyn changed the paragraph format*/
@@ -188,26 +180,31 @@ body {
 	 font-family: "Century Gothic";
 	 font-size:12px;
 	 letter-spacing: 0.05em;
-} /* Robyn created a div id="page" and applied CSS*/
+}
+/* Robyn and Elaine created a div id="page" and Robyn applied CSS*/
 #page {
-	width:960px;
+	max-width:960px;
+	min-width: auto;
+	max-height:2500px;
 	min-height: 750px; /*Robyn adjusted the height with a min and over flow using code via: https://stackoverflow.com/questions/2920114/how-to-auto-adjust-the-div-height-according-to-content-in-it*/
 	overflow:hidden;
 	padding:30px;
-	margin: 10px;
+	margin: auto;
 	display: block;
 	position: relative;
 	border-radius: 5px;
 	background-color:hsl(0, 0%,5%);
 }
-/* Robyn created profile div id and applied CSS*/
+/* Robyn and Elaine created profile div id and Robyn applied CSS*/
 #profile {
-	width:400px;
+	max-width:400px;
+	min-width:auto;
 	float: right;
-	height:100%;
+	max-height: 720px;
+	height:auto;
 	padding: 5px;
 	margin-left: 5px;
-	display: block;
+	overflow:scroll; /* Robyn added overflow scroll from https://css-tricks.com/the-css-overflow-property/*/
 }
 /* Robyn created image div id and applied CSS*/
 #image {
@@ -219,15 +216,27 @@ body {
 	margin-right:5px;
 	display: block;
 }
-
 /* Robyn - image alignment code borrowed from HTML & CSS text written by Jon Duckett*/	
-img.align-left {
-	float:left;
+
+/* Robyn and Elaine created image div id and Robyn applied CSS*/
+#image {
+	max-width:500px;
+	min-width:auto;
+	float: left;
+	padding:5px;
+	margin-top: 20px;
 	margin-right:15px;
 }
-/* Robyn added skills div id and applied CSS to it -->*/
+img {
+	width:100%;
+	max-width: 470px;
+	height: auto;
+}
+
+/* Robyn and Elaine added skills div id and Robyn applied CSS to it*/
 #skills {
 	max-width:900px;
+	min-width: auto;
 	float: left;
 	height: 250px;
 	padding: 5px;
