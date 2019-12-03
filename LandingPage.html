@@ -79,9 +79,14 @@ function onYouTubeIframeAPIReady() {
 		autohide: 0,	   // Hide video controls when playing
 		mute: 1,	   // Mute sound on video
 		},
-	   }
- 	});
-}
+    },
+    	events: {
+      		onReady: function(e) {
+        	e.target.mute();
+     	 }
+    }
+  });
+ }
 </script>
 	
 <div class="footer">
