@@ -288,16 +288,16 @@ padding: 5px;
 }
 
 .myForm button {
-	padding: 1em;
-	border-radius: 0.5em;
-	background: #eee;
+	padding: 5px;
+	border-radius: 2px;
+	background: greenyellow;
 	border: none;
 	font-weight: bold;
-	margin-top: 1em;
+	margin-top: 5px;
 }
 	
 .myForm button:hover {
-	background: orangered;
+	background: orange;
 	cursor: pointer;
 }
 
