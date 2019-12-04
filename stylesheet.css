@@ -70,6 +70,7 @@ background-color:orange;
 .left{						                  /*left-align columns*/
 float:left;
 }
+
 h4.nav{						                  /*column headings*/
 padding:16px;
 color: hsla(0,0%,80%,1);
@@ -77,11 +78,15 @@ font-family: "Century Gothic";
 }
 
 #navigation{
-	position:absolute;
+	position:relative;
 	top: 52.440px;
 	width: 600px;
 }
 
+#title{
+	position: relative;
+	margin-left: 45px;
+}
 /*#########################################################################*/
 
 /* Sarah Bencic
