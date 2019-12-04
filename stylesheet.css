@@ -289,17 +289,16 @@ padding: 5px;
 
 .myForm button {
 	padding: 5px;
-	border-radius: 2px;
+	border-radius: 5px;
 	background: hsla(0,0%,80%,1);
-	border: none;
 	font-family: "Century Gothic";
-	font-weight: bold;
+	font-weight: italic;
 	margin-top: 5px;
 }
 	
 .myForm button:hover {
 	background: purple;
-	cursor: pointer;
+	cursor: url(foo.cur), url(http://www.example.com/bar.gif), auto;
 }
 
 
