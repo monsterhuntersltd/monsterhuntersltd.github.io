@@ -74,6 +74,12 @@ h4.nav{						                  /*column headings*/
 padding:16px;
 color:white;
 }
+
+#navigation{
+	position:absolute;
+	top: 22.440px;
+}
+
 /*#########################################################################*/
 
 /* Sarah Bencic
