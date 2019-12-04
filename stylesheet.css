@@ -78,7 +78,7 @@ font-family: "Century Gothic";
 }
 
 #navigation{
-	position:relative;
+	position:absolute;
 	top: 52.440px;
 	width: 600px;
 }
