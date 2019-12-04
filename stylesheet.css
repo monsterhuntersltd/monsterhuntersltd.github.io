@@ -299,6 +299,7 @@ padding: 5px;
 	font-family: "Century Gothic";
 	font-weight: italic;
 	margin-top: 5px;
+	text-decoration: none; 
 }
 	
 .myForm button:hover {
