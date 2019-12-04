@@ -185,8 +185,8 @@ body {
 #page {
 	max-width:960px;
 	min-width: auto;
-	max-height:2500px;
-	min-height: 750px; /*Robyn adjusted the height with a min and over flow using code via: https://stackoverflow.com/questions/2920114/how-to-auto-adjust-the-div-height-according-to-content-in-it*/
+	max-height:auto;
+	min-height: auto; /*Robyn adjusted the height with a min and over flow using code via: https://stackoverflow.com/questions/2920114/how-to-auto-adjust-the-div-height-according-to-content-in-it*/
 	overflow:hidden;
 	padding:30px;
 	margin: auto;
