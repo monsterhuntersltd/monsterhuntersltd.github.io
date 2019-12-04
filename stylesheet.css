@@ -324,7 +324,7 @@ div.image {
 }
 
 /*Elaine - code for making the iframe responsive*/
-div.respContainer {
+/*div.respContainer {
 	max-width: 940px;
 	min-width: auto;
 	max-height: 600px;
@@ -333,7 +333,7 @@ div.respContainer {
 	overflow: hidden;
 	padding-top: 30px;
 	margin: auto;
-}
+}*/
 
 div.respIframe {
 	position: absolute;
