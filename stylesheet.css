@@ -5,10 +5,12 @@
 	position: fixed; 
 	left: 0px;
 	bottom: 0px;
-	width: 100%;
+	max-width: 960px;
+	min-width: auto;
 	margin: 50px auto auto auto;
 	display: block;
 	color: hsla(0,0%,80%,1);
+	background-color: hsl(271, 100%, 8%);
 	text-align: center;
 	font-family: "Century Gothic";
 }
