@@ -293,3 +293,29 @@ padding: 5px;
 #quotepage {
 	display: none;
 }
+/* Robyn created profile class id and applied CSS*/
+div.profile {
+	max-width:400px;
+	min-width:auto;
+	float: right;
+	max-height: 600px;
+	min-height:auto;
+	padding: 5px;
+	margin-top: 20px;
+	margin-left: 5px;
+	overflow:scroll; /* Robyn added overflow scroll from https://css-tricks.com/the-css-overflow-property/*/
+}
+/* Robyn - image alignment code borrowed from HTML & CSS text written by Jon Duckett*/	
+
+/* Robyn aimage div class and Robyn applied CSS*/
+div.image {
+	max-width:500px;
+	min-width:auto;
+	max-height: 600px;
+	min-height:auto;
+	float: left;
+	padding:5px;
+	margin-top: 20px;
+	margin-right:15px;
+}
+
