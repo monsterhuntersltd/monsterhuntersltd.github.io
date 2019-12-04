@@ -2,7 +2,7 @@
 .footer {
 	height: 50px;
 	overflow: hidden;
-	position: fixed; /* Robyn Changed this back to fixed because it was showing up in the middle of some of the pages as absolute */
+	position: absolute; 
 	left: 0px;
 	bottom: 0px;
 	width: 100%;
