@@ -187,6 +187,7 @@ h1 {
 /* Robyn changed the background colour to the body of the website, recieved code from: http://hslpicker.com* also added some sizing changes*/
 body {
 	background-color: hsl(271, 100%, 8%);
+	cursor: url(http://cur.cursors-4u.net/holidays/hol-1/hol62.cur); /* End http://www.cursors-4u.com */
 } 
 /* Robyn changed the paragraph format*/
  p { 
