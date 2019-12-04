@@ -206,16 +206,6 @@ body {
 	margin-left: 5px;
 	overflow:scroll; /* Robyn added overflow scroll from https://css-tricks.com/the-css-overflow-property/*/
 }
-/* Robyn created image div id and applied CSS*/
-#image {
-	width:500px;
-	float: left;
-	/*height: 720px;*/
-	padding:5px;
-	margin-top: 20px;
-	margin-right:5px;
-	display: block;
-}
 /* Robyn - image alignment code borrowed from HTML & CSS text written by Jon Duckett*/	
 
 /* Robyn and Elaine created image div id and Robyn applied CSS*/
