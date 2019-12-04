@@ -335,7 +335,7 @@ div.image {
 	margin: auto;
 }*/
 
-/*div.respIframe {
+div.respIframe {
 	position: absolute;
 	top: 50px;
 	left: 0;
@@ -344,4 +344,4 @@ div.image {
 	max-height: 600;
 	min-height: auto;
 	border: 0;
-}*/
+}
