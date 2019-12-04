@@ -56,7 +56,7 @@ background-color:orange;
   display: block;
   padding: 16px;
   transition: all 0.3s ease;
-  color: white;
+  color: hsla(0,0%,80%,1);
   font-size: 20px;
   text-decoration: none;
   background-color: #444;
@@ -72,12 +72,14 @@ float:left;
 }
 h4.nav{						                  /*column headings*/
 padding:16px;
-color:white;
+color: hsla(0,0%,80%,1);
+font-family: "Century Gothic";
 }
 
 #navigation{
 	position:absolute;
-	top: 22.440px;
+	top: 52.440px;
+	width: 600px;
 }
 
 /*#########################################################################*/
