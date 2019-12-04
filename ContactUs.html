@@ -8,30 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Contact page</title>
 	<h1> MONSTER HUNTERS LTD. </h1> <!--Robyn added header and footer-->
-	
-	
-<script>
-function QuoteUs(){
-	var form = document.getElementById('Monster Hunter Quote'); /* this code is from the textbook*/
-
-	addEvent(form, 'submit', function(e) {
-		e.preventDefault();
-		var elements = this.elements; 
-		var username = elements.username.value
-		var msg = 'Welcome' + username;
-		document.getElementById('main').textContent = msg;
-	});
-}; 
-
-function getQuote() { 		
-  var y = document.getElementById("quotepage");	/*getting information from .quotepage class*/
-  if (y.style.display === "none") {		/*hidden at first*/
-    y.style.display = "block";			/*shows message*/
-  }
-}
-
-</script>
-
+<script> src = "JavaScriptMain.js"</script> <!--Danielle added relative path (from Javascript & jQuery textbook by Jon Duckett-->
 
 </head>
 
