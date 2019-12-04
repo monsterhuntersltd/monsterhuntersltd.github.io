@@ -12,6 +12,7 @@
 	color: hsla(0,0%,80%,1);
 	background-color: hsl(271, 100%, 8%);
 	text-align: center;
+	float:center;
 	font-family: "Century Gothic";
 }
 	
