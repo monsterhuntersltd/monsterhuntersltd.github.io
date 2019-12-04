@@ -337,9 +337,11 @@ div.image {
 
 div.respIframe {
 	position: absolute;
-	top: 0;
+	top: 50px;
 	left: 0;
-	width: 100%;
-	height: 100%;
+	max-width: 900;
+	min-width: auto;
+	max-height: 600;
+	min-height: auto;
 	border: 0;
 }
