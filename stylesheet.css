@@ -263,9 +263,9 @@ img {
 .myForm textarea {
 display: block;
 width: 100%;
-border: 1px solid rgba(226, 210, 252, 0.877);
+border: 1px solid hsla(0,0%,80%,1);
 font-family: "Century Gothic";
-font-size: 12px;
+font-size: 14px;
 padding: 5px;
 }
 
@@ -290,14 +290,15 @@ padding: 5px;
 .myForm button {
 	padding: 5px;
 	border-radius: 2px;
-	background: greenyellow;
+	background: hsla(0,0%,80%,1);
 	border: none;
+	font-family: "Century Gothic";
 	font-weight: bold;
 	margin-top: 5px;
 }
 	
 .myForm button:hover {
-	background: orange;
+	background: purple;
 	cursor: pointer;
 }
 
