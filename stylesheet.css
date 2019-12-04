@@ -297,14 +297,11 @@ padding: 5px;
 }
 	
 .myForm button:hover {
-	background: #ccc;
+	background: orangered;
 	cursor: pointer;
 }
 
-/* Danielle created id and css for contact form*/
-#quotepage {
-	display: none;
-}
+
 /* Robyn created profile class id and applied CSS*/
 div.profile {
 	max-width:400px;
