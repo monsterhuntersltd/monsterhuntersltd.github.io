@@ -41,19 +41,11 @@
             <a href="MemorialPage.html">Memorial</a></div>
 	</div>
 </div>
-<script>
-function myFunction() { 			/*function definition*/
-  var x = document.getElementById("icon-bar");	/*getting information from icon-bar*/
-  if (x.style.display === "block") {		/*expanded condition*/
-    x.style.display = "none";			/*close it*/
-  } else {					/*collapsed condition*/
-    x.style.display = "block";			/*open it*/
-  }
-}
-</script>
 <!--######################################################################-->
 
 <h2>Elaine's Profile</h2>
+<div class="flexcon">
+	
 <div id="image">
 <img src="/images/prof_elaine.jpg" alt="profile_elaine" class="align-left">
 <!-- Minimalist webpage inspiration from: Awwwards compilation of best minimal webpages: https://www.awwwards.com/websites/minimal/ -->
@@ -70,91 +62,48 @@ In her free time, Elaine mentors the younger monster hunters, keeps up on her ex
 </p> <!-- Robyn moved your blurb for skills and placed it in profile -->
 </div>
 
-<div id="skills"> <!--Robyn added div id skills -->
-<h3> skills go here </h3> <!--Robyn placed h3 wittin the skills div -->
-<script>
-jQuery(document).ready(function(){
-jQuery('.skillbar').each(function(){
-jQuery(this).find('.skillbar-bar').animate({
-width:jQuery(this).attr('data-percent')
-},6000);});});
-</script>
+<div id="skills"> <!-- Robyn added skills div around skill bar -->
+<!-- Sarah Bencic, Nathan-->
+<!-- REFERENCE NEEDED -->
 
-<div class="skillbar clearfix " data-percent="99%">
-	<div class="skillbar-title" style="background: #d35400;"><span>Spelunking<span></div>
-	<div class="skillbar-bar" style="background: #e67e22;"></div>
-	<div class="skill-bar-percent">99%</div>
-</div> <!-- End Skill Bar -->
+<h2>Skills</h2>
+    <div class="skill-bar-container">
+    <span class="skill-name">Something</span>
+    <span class="skill-percent">10%</span>
+    <span class="skill-bar level1"></span> <!--change level to match percent-->
+  </div>
 
-<div class="skillbar clearfix " data-percent="99%">
-	<div class="skillbar-title" style="background: #2980b9;"><span>Martial Arts</span></div>
-	<div class="skillbar-bar" style="background: #3498db;"></div>
-	<div class="skill-bar-percent">99%</div>
-</div> <!-- End Skill Bar -->
+  <div class="skill-bar-container">
+    <span class="skill-name">Something</span>
+    <span class="skill-percent">20%</span>
+    <span class="skill-bar level2"></span> <!--change level to match percent-->
+  </div>
 
-<div class="skillbar clearfix " data-percent="99%">
-	<div class="skillbar-title" style="background: #2980b9;"><span>Crossbow</span></div>
-	<div class="skillbar-bar" style="background: #3498db;"></div>
-	<div class="skill-bar-percent">99%</div>
-</div> <!-- End Skill Bar -->
+  <div class="skill-bar-container">
+    <span class="skill-name">Something</span>
+    <span class="skill-percent">30%</span>
+    <span class="skill-bar level3"></span> <!--change level to match percent-->
+  </div>
+	
+  <div class="skill-bar-container">
+    <span class="skill-name">Something</span>
+    <span class="skill-percent">40%</span>
+    <span class="skill-bar level4"></span> <!--change level to match percent-->
+  </div>
 
-<div class="skillbar clearfix " data-percent="99%">
-	<div class="skillbar-title" style="background: #2980b9;"><span>Marks(wo)man</span></div>
-	<div class="skillbar-bar" style="background: #3498db;"></div>
-	<div class="skill-bar-percent">99%</div>
-</div> <!-- End Skill Bar -->
-
-<div class="skillbar clearfix " data-percent="99%">
-	<div class="skillbar-title" style="background: #2980b9;"><span>Tracking</span></div>
-	<div class="skillbar-bar" style="background: #3498db;"></div>
-	<div class="skill-bar-percent">99%</div>
-</div> <!-- End Skill Bar -->
-		
-<div class="skillbar clearfix " data-percent="99%">
-	<div class="skillbar-title" style="background: #2980b9;"><span>Bushcraft</span></div>
-	<div class="skillbar-bar" style="background: #3498db;"></div>
-	<div class="skill-bar-percent">99%</div>
-</div> <!-- End Skill Bar -->
-		
-<div class="skillbar clearfix " data-percent="85%">
-	<div class="skillbar-title" style="background: #2980b9;"><span>Swimming</span></div>
-	<div class="skillbar-bar" style="background: #3498db;"></div>
-	<div class="skill-bar-percent">85%</div>
-</div> <!-- End Skill Bar -->
-
-<div class="skillbar clearfix " data-percent="90%">
-	<div class="skillbar-title" style="background: #2980b9;"><span>Running</span></div>
-	<div class="skillbar-bar" style="background: #3498db;"></div>
-	<div class="skill-bar-percent">90%</div>
-</div> <!-- End Skill Bar -->
-		
-<div class="skillbar clearfix " data-percent="80%">
-	<div class="skillbar-title" style="background: #2980b9;"><span>Diving</span></div>
-	<div class="skillbar-bar" style="background: #3498db;"></div>
-	<div class="skill-bar-percent">80%</div>
-</div> <!-- End Skill Bar -->
-		
-<div class="skillbar clearfix " data-percent="75%">
-	<div class="skillbar-title" style="background: #2980b9;"><span>Expert Driving</span></div>
-	<div class="skillbar-bar" style="background: #3498db;"></div>
-	<div class="skill-bar-percent">75%</div>
-</div> <!-- End Skill Bar -->
-		
-<div class="skillbar clearfix " data-percent="99%">
-	<div class="skillbar-title" style="background: #2980b9;"><span>Mudwrestling</span></div>
-	<div class="skillbar-bar" style="background: #3498db;"></div>
-	<div class="skill-bar-percent">99%</div>
-</div> <!-- End Skill Bar -->
-		
-<div class="skillbar clearfix " data-percent="90%">
-	<div class="skillbar-title" style="background: #2980b9;"><span>Baking</span></div>
-	<div class="skillbar-bar" style="background: #3498db;"></div>
-	<div class="skill-bar-percent">90%</div>
-</div> <!-- End Skill Bar -->
-</div>
-	</div>
+	<div class="skill-bar-container">
+    <span class="skill-name">Something</span>
+    <span class="skill-percent">50%</span>
+    <span class="skill-bar level5"></span> <!--change level to match percent-->
+  </div>
+ 
+</div> <!-- skills div-->
+</div> <!-- flexcon div-->
+</div> <!-- page div-->
+	
 <div class="footer">
-	<p class="footer"> Have a monster problem? Call Monster Hunters at: 1-800-NEEDHELP</p>
+<p class="footer"> Have a monster problem? Call Monster Hunters at: 1-800-NEED-HELP</p>
 </div>
+
 </body>
 </html>
