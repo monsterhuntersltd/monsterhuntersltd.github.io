@@ -250,6 +250,38 @@ img {
 	margin-right:5px;
 	display: block;
 }
+div.flexcon { /* Robyn added a id class to contain elements to alow for flex box code to work, got code and inspiration from: https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:flex-start;
+	align-items:space-around;
+}
+/* Robyn created profile class id and applied CSS*/
+div.profile {
+	max-width:400px;
+	min-width:auto;
+	float: right;
+	max-height: 600px;
+	min-height:auto;
+	padding: 5px;
+	margin-top: 20px;
+	margin-left: 5px;
+	overflow:scroll; /* Robyn added overflow scroll from https://css-tricks.com/the-css-overflow-property/*/
+}
+/* Robyn - image alignment code borrowed from HTML & CSS text written by Jon Duckett*/	
+
+/* Robyn aimage div class and Robyn applied CSS*/
+div.image {
+	max-width:500px;
+	min-width:auto;
+	max-height: 600px;
+	min-height:auto;
+	float: left;
+	padding:5px;
+	margin-top: 20px;
+	margin-right:15px;
+}
 
 /* Danielle added contact form and applied CSS to it - inspired by https://www.quackit.com/html/codes/html_form_code.cfm */
 .myForm { 
@@ -297,33 +329,6 @@ img {
 	background: green;
 }
 
-
-/* Robyn created profile class id and applied CSS*/
-div.profile {
-	max-width:400px;
-	min-width:auto;
-	float: right;
-	max-height: 600px;
-	min-height:auto;
-	padding: 5px;
-	margin-top: 20px;
-	margin-left: 5px;
-	overflow:scroll; /* Robyn added overflow scroll from https://css-tricks.com/the-css-overflow-property/*/
-}
-/* Robyn - image alignment code borrowed from HTML & CSS text written by Jon Duckett*/	
-
-/* Robyn aimage div class and Robyn applied CSS*/
-div.image {
-	max-width:500px;
-	min-width:auto;
-	max-height: 600px;
-	min-height:auto;
-	float: left;
-	padding:5px;
-	margin-top: 20px;
-	margin-right:15px;
-}
-
 /*Elaine - code for making the iframe responsive*/
 /*div.respContainer {
 	max-width: 940px;
@@ -346,4 +351,32 @@ div.image {
 	min-height: auto;
 	border: 0;
 }*/
-
+/*Robyn added colour and style to scroll bar courtesy of https://css-tricks.com/almanac/properties/s/scrollbar/ */
+body::-webkit-scrollbar {
+  width: 1em;
+}
+  
+body::-webkit-scrollbar-thumb {
+  background-color: orange;
+  outline: 1px black;
+}
+div.profile::-webkit-scrollbar {
+  width: .5em;
+}
+ div.profile::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+div.profile::-webkit-scrollbar-thumb {
+  background-color: purple;
+  outline: 1px black;
+}
+#profile::-webkit-scrollbar {
+  width: .5em;
+}
+#profile::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+#profile::-webkit-scrollbar-thumb {
+  background-color: purple;
+  outline: 1px black;
+}
