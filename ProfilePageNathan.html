@@ -9,72 +9,47 @@
 
 <title>Nathan's Profile</title>
 <style>
-body {
-  font-family: 'Ubuntu', sans-serif;
-  width:960px;
-}
 
-p{
-  color:#525252;
-  font-size:12px;
-}
+.skill-bar-container {
+    position: relative;
+    width: 100%;
+    border-radius: 4px;
+    background-color: whitesmoke;
+    margin-bottom: 0.5em;}
 
-.skillbar {
-	position:relative;
-	display:block;
-	margin-bottom:15px;
-	width:100%;
-	background:#eee;
-	height:35px;
-	border-radius:3px;
-	transition:0.4s linear;
-	transition-property:width, background-color;
-}
+.skill-bar {
+        display: block;
+        border-radius: 4px;
+        height: 25px;
+        background-color: red;}
 
-.skillbar-title {
-	position:absolute;
-	top:0;
-	left:0;
-  width:110px;
-	font-weight:bold;
-	font-size:13px;
-	color:#ffffff;
-	background:#6adcfa;
-	border-top-left-radius:3px;
-	border-bottom-left-radius:3px;
-}
+.level1 { width: 10%; background-color: orange;}
+.level2 { width: 20%; background-color: orange;}
+.level3 { width: 30%; background-color: orange;}
+.level4 { width: 40%; background-color: orange;}
+.level5 { width: 50%; background-color: orange;}
+.level6 { width: 60%; background-color: orange;}
+.level7 { width: 70%; background-color: orange;}
+.level8 { width: 80%; background-color: orange;}
+.level9 { width: 90%; background-color: orange;}
+.level0 { width: 100%; background-color: orange;}
 
-.skillbar-title span {
-	display:block;
-	background:rgba(0, 0, 0, 0.1);
-	padding:0 20px;
-	height:35px;
-	line-height:35px;
-	border-top-left-radius:3px;
-	border-bottom-left-radius:3px;
-}
+    .skill-name {
+        position: absolute;
+        top: 5px;
+        left: 10px;
+        color: black;
+        font-weight: 600;
+    }
+    .skill-percent {
+      position: absolute;
+      top: 5px;
+      right: 10px;
+      color: #999;
+    }
 
-.skillbar-bar {
-	height:35px;
-	width:0px;
-	background:#6adcfa;
-	border-radius:3px;
-}
-
-.skill-bar-percent {
-	position:absolute;
-	right:10px;
-	top:0;
-	font-size:11px;
-	height:35px;
-	line-height:35px;
-	color:#ffffff;
-	color:rgba(0, 0, 0, 0.4);
-}
 </style>
-	
-	
-	</head>
+</head>
 <body>
 
 <div id="page"> 
@@ -121,39 +96,68 @@ p{
 <p> Nathan is a second-year Monster Hunter based out of the Iceland office. A graduate of the University of Maine School of Monster Psychology, Nathan is well-equipped to deal with your monster problems.</p>
 </div>
 
+<div id="skills"> <!-- Robyn added skills div around skill bar -->
+<!-- Sarah Bencic-->
 <!--skills table or with those scales -->
 <!-- https://codepen.io/tamak/pen/hzEer skill bars animted with Javascript thought it could be a good way to use javascript and show people's "skills"-->
+<h2>Skills</h2>
+    <div class="skill-bar-container">
+    <span class="skill-name">Something</span>
+    <span class="skill-percent">10%</span>
+    <span class="skill-bar level1"></span>
+  </div>
 
-<div id="skills" style="float:left; display:block;">
-<h3>Skills</h3>
-<p>Mountain Climber....Expert Level</p>
+  <div class="skill-bar-container">
+    <span class="skill-name">Something</span>
+    <span class="skill-percent">20%</span>
+    <span class="skill-bar level2"></span>
+  </div>
 
-<!-- ########### BARS BEGIN ##### -->
+  <div class="skill-bar-container">
+    <span class="skill-name">Something</span>
+    <span class="skill-percent">30%</span>
+    <span class="skill-bar level3"></span>
+  </div>
+  
+    <div class="skill-bar-container">
+    <span class="skill-name">Something</span>
+    <span class="skill-percent">40%</span>
+    <span class="skill-bar level4"></span>
+  </div>
+    <div class="skill-bar-container">
+    <span class="skill-name">Something</span>
+    <span class="skill-percent">50%</span>
+    <span class="skill-bar level5"></span>
+  </div>
+    <div class="skill-bar-container">
+    <span class="skill-name">Something</span>
+    <span class="skill-percent">60%</span>
+    <span class="skill-bar level6"></span>
+  </div>
+    <div class="skill-bar-container">
+    <span class="skill-name">Something</span>
+    <span class="skill-percent">70%</span>
+    <span class="skill-bar level7"></span>
+  </div>
+    <div class="skill-bar-container">
+    <span class="skill-name">Something</span>
+    <span class="skill-percent">80%</span>
+    <span class="skill-bar level8"></span>
+  </div>
+    <div class="skill-bar-container">
+    <span class="skill-name">Something</span>
+    <span class="skill-percent">90%</span>
+    <span class="skill-bar level9"></span>
+  </div>
+    <div class="skill-bar-container">
+    <span class="skill-name">Something</span>
+    <span class="skill-percent">100%</span>
+    <span class="skill-bar level0"></span>
+  </div>
 
-<div class="skillbar clearfix " data-percent="20%">
-	<div class="skillbar-title" style="background: #d35400;"><span>HTML5</span></div>
-	<div class="skillbar-bar" style="background: #e67e22;"></div>
-	<div class="skill-bar-percent">20%</div>
-</div> <!-- End Skill Bar -->
+</div> <!-- skills div->
 
-<div class="skillbar clearfix " data-percent="90%">
-	<div class="skillbar-title" style="background: #2980b9;"><span>CSS3</span></div>
-	<div class="skillbar-bar" style="background: #3498db;"></div>
-	<div class="skill-bar-percent">90%</div>
-</div> <!-- End Skill Bar -->
-
-<script>
-jQuery(document).ready(function(){
-	jQuery('.skillbar').each(function(){
-		jQuery(this).find('.skillbar-bar').animate({
-			width:jQuery(this).attr('data-percent')
-		},6000);
-	});
-});
-</script>
-	
-<!-- ########### BARS END ##### -->
-</div>
+</div> <!-- page div->
 	
 <div class="footer">
 <p class="footer"> Have a monster problem? Call Monster Hunters at: 1-800-NEEDHELP</p>
