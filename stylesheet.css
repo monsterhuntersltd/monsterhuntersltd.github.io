@@ -266,11 +266,14 @@ img {
 .myForm input[type="text"],
 .myForm select,
 .myForm textarea {
-display: none;
-width: 100%;
-border: 1px solid hsla(0,0%,80%,1);
-font-family: "Century Gothic";
-font-size: 14px;
+	display: block;
+	max-width:960px;
+	min-width: auto;
+	max-height:5000px; /*Robyn adjusted the max height because having it auto adjust was not working */
+	min-height: auto; 
+	border: 1px solid hsla(0,0%,80%,1);
+	font-family: "Century Gothic";
+	font-size: 14px;
 }
 
 .myForm * {
