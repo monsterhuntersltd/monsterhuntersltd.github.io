@@ -5,15 +5,19 @@
 <!-- code was "borrowed" from w3schools.com -->
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src = "JavaScriptMain.js"></script> <!--Danielle added relative path (from Javascript & jQuery textbook by Jon Duckett-->
+	
 <title>Memorial Page</title>
 </head>
 <body>
 <!-- Robyn Added a div for the page to be able to change the colour and have it sit in the middle of a browser -->	
+
 <div id="page"> 
-<h1> MONSTER HUNTERS LTD. </h1>
+<h1 id = "title"> MONSTER HUNTERS LTD. </h1> <!-- id assigned by Nathan-->
+
 <!--######################################################################-->
 <div id="navigation">
-	<a href="javascript:void(0);" onclick="myFunction()">
+	<a href="javascript:void(0);" onclick="clickNavBar()">
 	<div id="click-me">
 		<div class = "hamburger"></div>
 		<div class = "hamburger"></div>
@@ -39,16 +43,6 @@
             <a href="MemorialPage.html">Memorial</a></div>
 	</div>
 </div>
-<script>
-function myFunction() { 			/*function definition*/
-  var x = document.getElementById("icon-bar");	/*getting information from icon-bar*/
-  if (x.style.display === "block") {		/*expanded condition*/
-    x.style.display = "none";			/*close it*/
-  } else {					/*collapsed condition*/
-    x.style.display = "block";			/*open it*/
-  }
-}
-</script>
 <!--######################################################################-->
 
 <h2>In Memorium<h2>

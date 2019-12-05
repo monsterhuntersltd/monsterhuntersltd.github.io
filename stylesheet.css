@@ -257,7 +257,7 @@ img {
 	font-size: 12px;
 	width: 500px;
 	padding: 5px;
-	border: 5px solid hsla(272, 63%, 19%, 0.699);
+	
 }
 
 .myForm input[type="text"],
@@ -266,25 +266,10 @@ img {
 .myForm input[type="text"],
 .myForm select,
 .myForm textarea {
-display: none;
-width: 100%;
-border: 1px solid hsla(0,0%,80%,1);
-font-family: "Century Gothic";
-font-size: 14px;
-}
-
-.myForm * {
-	box-sizing: border-box;
-}
-		
-.myForm fieldset {
-	border: none;
-	padding: 0;
-}
-
-.myForm label.choice {
-	font-size: 0.9em;
-	font-weight: normal;
+	display: block;
+	width: 100%; 
+	font-family: "Century Gothic";
+	font-size: 14px;
 }
 
 .myForm textarea {

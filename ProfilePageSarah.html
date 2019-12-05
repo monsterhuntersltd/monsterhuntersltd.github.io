@@ -5,18 +5,20 @@
 <!-- Was supposed to help with making the screen dynamic but didn't really work on my personal Page -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
+<script src = "JavaScriptMain.js"></script> <!--Danielle added relative path (from Javascript & jQuery textbook by Jon Duckett-->
+
 <title>Sarah's Profile</title>
 
 </head>
 <body>
-<div id="page"> <!-- Robyn and Elaine created a div for the page to create a box for content and change the colour from the background -->
 
+<div id="page"> <!-- Robyn and Elaine created a div for the page to create a box for content and change the colour from the background -->
 <!--Robyn Moved the h1 "Monster Hunters Ltd. to the top-->
 <h1 id = "title"> MONSTER HUNTERS LTD. </h1> <!-- id assigned by Nathan-->
 
 <!--######################################################################-->
 <div id="navigation">
-	<a href="javascript:void(0);" onclick="myFunction()">
+	<a href="javascript:void(0);" onclick="clickNavBar()">
 	<div id="click-me">
 		<div class = "hamburger"></div>
 		<div class = "hamburger"></div>
@@ -42,16 +44,6 @@
             <a href="MemorialPage.html">Memorial</a></div>
 	</div>
 </div>
-<script>
-function myFunction() { 			/*function definition*/
-  var x = document.getElementById("icon-bar");	/*getting information from icon-bar*/
-  if (x.style.display === "block") {		/*expanded condition*/
-    x.style.display = "none";			/*close it*/
-  } else {					/*collapsed condition*/
-    x.style.display = "block";			/*open it*/
-  }
-}
-</script>
 <!--######################################################################-->
 
 <!-- Minimalist webpage inspiration from: Awwwards compilation of best minimal webpages: https://www.awwwards.com/websites/minimal/ -->
