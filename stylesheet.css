@@ -403,7 +403,7 @@ div.profile::-webkit-scrollbar-thumb {
   background-color: purple;
   outline: 1px black;
 }
-/* Robyn and Sarah applied CSS to lists from robyn's favourite source: https://css-tricks.com/almanac/properties/l/list-style/  */
+/* Robyn and Sarah applied CSS to lists from Robyn's favourite source: https://css-tricks.com/almanac/properties/l/list-style/  */
 ul {
 	list-style-type:circle;
 	list-style-position:outside;
