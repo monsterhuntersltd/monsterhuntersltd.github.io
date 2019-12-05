@@ -344,7 +344,7 @@ div.image {
 .myForm select,
 .myForm textarea {
 	display: block;
-	width: 200%; 
+	width: 150%; 
 	font-family: "Century Gothic";
 	font-size: 14px;
 }
