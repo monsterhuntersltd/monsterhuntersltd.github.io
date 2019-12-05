@@ -374,27 +374,6 @@ div.image {
 	background: purple;
 }
 
-/*Elaine - code for making the iframe responsive*/
-/*div.respContainer {
-	max-width: 940px;
-	min-width: auto;
-	max-height: 600px;
-	min-height: auto;
-	position: relative;
-	overflow: hidden;
-	padding-top: 30px;
-	margin: auto;
-}*/
-
-/*div.respIframe {
-	position: absolute;
-	top: 50px;
-	left: 0;
-	max-width: 900;
-	min-width: auto;
-	max-height: 600;
-	min-height: auto;
-	border: 0;
 }*/
 /*Robyn added colour and style to scroll bar courtesy of https://css-tricks.com/almanac/properties/s/scrollbar/ */
 body::-webkit-scrollbar {
