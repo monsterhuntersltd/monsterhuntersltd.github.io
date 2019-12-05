@@ -16,17 +16,9 @@
 	font-family: "Century Gothic";
 }
 	
-
 /*#########################################################################*/
 
 /* This part by Nathan November 27, 2019 */
-
-/*body{
-font-family: arial;
-margin: 5% 10% 0% 10%;				      top right bottom left
-background-color:#222;
-color: white;
-} */
 
 .hamburger {					              /*hamburger bars*/
   width: 35px;					            /*bar width*/
@@ -90,125 +82,12 @@ font-family: "Century Gothic";
 }
 /*#########################################################################*/
 
-/* Sarah Bencic
-CSS for Skill Bars */
-
-.skillbar {
-	position:relative;
-	display:block;
-	margin-bottom:15px;
-	width:100%;
-	background:#eee;
-	height:35px;
-	border-radius:3px;
-	-moz-border-radius:3px;
-	-webkit-border-radius:3px;
-	-webkit-transition:0.4s linear;
-	-moz-transition:0.4s linear;
-	-ms-transition:0.4s linear;
-	-o-transition:0.4s linear;
-	transition:0.4s linear;
-	-webkit-transition-property:width, background-color;
-	-moz-transition-property:width, background-color;
-	-ms-transition-property:width, background-color;
-	-o-transition-property:width, background-color;
-	transition-property:width, background-color;
-}
-
-.skillbar-title {
-	position:absolute;
-	top:0;
-	left:0;
-	width:110px;
-	font-weight:bold;
-	font-size:13px;
-	color:#ffffff;
-	background:#6adcfa;
-	-webkit-border-top-left-radius:3px;
-	-webkit-border-bottom-left-radius:4px;
-	-moz-border-radius-topleft:3px;
-	-moz-border-radius-bottomleft:3px;
-	border-top-left-radius:3px;
-	border-bottom-left-radius:3px;
-}
-
-.skillbar-title span {
-	display:block;
-	background:rgba(0, 0, 0, 0.1);
-	padding:0 20px;
-	height:35px;
-	line-height:35px;
-	-webkit-border-top-left-radius:3px;
-	-webkit-border-bottom-left-radius:3px;
-	-moz-border-radius-topleft:3px;
-	-moz-border-radius-bottomleft:3px;
-	border-top-left-radius:3px;
-	border-bottom-left-radius:3px;
-}
-
-.skillbar-bar {
-	height:35px;
-	width:0px;
-	background:#6adcfa;
-	border-radius:3px;
-	-moz-border-radius:3px;
-	-webkit-border-radius:3px;
-}
-
-.skill-bar-percent {
-	position:absolute;
-	right:10px;
-	top:0;
-	font-size:11px;
-	height:35px;
-	line-height:35px;
-	color:#ffffff;
-	color:rgba(0, 0, 0, 0.4);
-}
-
 .page-wrap {
   padding: 2em;
   background-color: #fff;
   width: 50%;
   margin: 0 auto;
 }
-
-
-
-.skill-bar-container {
-    position: relative;
-    width: 100%;
-    border-radius: 4px;
-    background-color: whitesmoke;
-	margin-bottom: 0.5em;
-}
-    .skill-bar {
-        display: block;
-        border-radius: 4px;
-        height: 25px;
-		background-color: #d7edfa;
-}
-            .level1 { width: 20%; background-color: #d7edfa}
-            .level2 { width: 40%; background-color: #c8e7f8}
-            .level3 { width: 60%; background-color: #b9e0f7}
-            .level4 { width: 80%; background-color: #b9e0f7}
-            .level5 { width: 100%; background-color: #9ad3f3}
-    .skill-name {
-        position: absolute;
-        top: 5px;
-        left: 10px;
-        color: #333;
-        font-weight: 600;
-    }
-    .skill-percent {
-      position: absolute;
-      top: 5px;
-      right: 10px;
-      color: #999;
-    }
-
-/* Sarah Bencic 
-Source https://codepen.io/tamak/pen/hzEer */
 
 /* Center the header, h2 and h3  for our webpage - Elaine Bradbee and Robyn Northway Nov 28/19 */
 h1 {
@@ -324,10 +203,6 @@ div.image {
 	margin-right:15px;
 }
 
-.bump {
-	margin-right: 145px;
-}
-
 /* Danielle added contact form and applied CSS to it - inspired by https://www.quackit.com/html/codes/html_form_code.cfm */
 .myForm { 
 	font-family: "Century Gothic";
@@ -415,4 +290,59 @@ li {
 	 font-size:14px;
 	 letter-spacing: 0.05em;
 	 
+}
+
+/* Working Skills Bars */
+/* Sarah and Nathan */
+/* NEED REFERENCE */
+.skill-bar-container {
+    position: relative;
+    width: 100%;
+    border-radius: 4px;
+    background-color: whitesmoke;
+    margin-bottom: 1em;}
+
+.skill-bar {
+        display: block;
+        border-radius: 4px;
+        height: 25px;
+        background-color: red;}
+
+.level1 { width: 10%; background-color: orange;}
+.level2 { width: 20%; background-color: orange;}
+.level3 { width: 30%; background-color: orange;}
+.level4 { width: 40%; background-color: orange;}
+.level5 { width: 50%; background-color: orange;}
+.level6 { width: 60%; background-color: orange;}
+.level7 { width: 70%; background-color: orange;}
+.level8 { width: 80%; background-color: orange;}
+.level9 { width: 90%; background-color: orange;}
+.level0 { width: 100%; background-color: orange;}
+
+    .skill-name {
+        position: absolute;
+        top: 5px;
+        left: 10px;
+        color: black;
+        font-weight: 600;
+	font-family: "Century Gothic";
+    }
+    
+.skill-percent {
+      position: absolute;
+      top: 5px;
+      right: 10px;
+      color: #999;
+	font-family: "Century Gothic";
+	font-size: 14px;
+    }
+
+	#skills {
+	width:100%;
+	float: left;
+	height: 250px;
+	padding: 5px;
+	margin-top: 5px;
+	margin-right:5px;
+	display: block;
 }
