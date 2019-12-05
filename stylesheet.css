@@ -166,6 +166,46 @@ CSS for Skill Bars */
 	color:rgba(0, 0, 0, 0.4);
 }
 
+.page-wrap {
+  padding: 2em;
+  background-color: #fff;
+  width: 50%;
+  margin: 0 auto;
+}
+
+//The skill bars
+
+.skill-bar-container {
+    position: relative;
+    width: 100%;
+    border-radius: 4px;
+    background-color: whitesmoke;
+    margin-bottom: 0.5em;
+    .skill-bar {
+        display: block;
+        border-radius: 4px;
+        height: 25px;
+        //background-color: #d7edfa;
+            &.level1 { width: 20%; background-color: #d7edfa}
+            &.level2 { width: 40%; background-color: #c8e7f8}
+            &.level3 { width: 60%; background-color: #b9e0f7}
+            &.level4 { width: 80%; background-color: #b9e0f7}
+            &.level5 { width: 100%; background-color: #9ad3f3}
+    }
+    .skill-name {
+        position: absolute;
+        top: 5px;
+        left: 10px;
+        color: #333; //#333
+        //font-weight: 600;
+    }
+    .skill-percent {
+      position: absolute;
+      top: 5px;
+      right: 10px;
+      color: #999; //#333
+    }
+}
 /* Sarah Bencic 
 Source https://codepen.io/tamak/pen/hzEer */
 
