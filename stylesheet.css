@@ -266,12 +266,11 @@ img {
 .myForm input[type="text"],
 .myForm select,
 .myForm textarea {
-display: block;
+display: none;
 width: 100%;
 border: 1px solid hsla(0,0%,80%,1);
 font-family: "Century Gothic";
 font-size: 14px;
-padding: 5px;
 }
 
 .myForm * {
@@ -310,7 +309,7 @@ padding: 5px;
 }
 
 .myForm button:hover {
-	background: purple;
+	background: green;
 }
 
 
