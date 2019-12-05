@@ -267,18 +267,15 @@ img {
 .myForm select,
 .myForm textarea {
 	display: block;
-	max-width:960px;
-	min-width: auto;
-	max-height:5000px; /*Robyn adjusted the max height because having it auto adjust was not working */
-	min-height: auto; 
-	border: 1px solid hsla(0,0%,80%,1);
+	width: 100%; 
+	/*border: 1px solid hsla(0,0%,80%,1);*/
 	font-family: "Century Gothic";
 	font-size: 14px;
 }
 
-.myForm * {
+/*.myForm * {
 	box-sizing: border-box;
-}
+}*/
 		
 .myForm fieldset {
 	border: none;
@@ -286,7 +283,7 @@ img {
 }
 
 .myForm label.choice {
-	font-size: 0.9em;
+	font-size: 12px;
 	font-weight: normal;
 }
 
