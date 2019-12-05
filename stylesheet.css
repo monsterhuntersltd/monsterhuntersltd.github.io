@@ -173,14 +173,15 @@ CSS for Skill Bars */
   margin: 0 auto;
 }
 
-//The skill bars
+
 
 .skill-bar-container {
     position: relative;
     width: 100%;
     border-radius: 4px;
     background-color: whitesmoke;
-    margin-bottom: 0.5em;
+	margin-bottom: 0.5em;
+}
     .skill-bar {
         display: block;
         border-radius: 4px;
@@ -205,7 +206,7 @@ CSS for Skill Bars */
       right: 10px;
       color: #999;
     }
-}
+
 /* Sarah Bencic 
 Source https://codepen.io/tamak/pen/hzEer */
 
@@ -373,7 +374,7 @@ div.image {
 	background: purple;
 }
 
-}*/
+
 /*Robyn added colour and style to scroll bar courtesy of https://css-tricks.com/almanac/properties/s/scrollbar/ */
 body::-webkit-scrollbar {
   width: 1em;
