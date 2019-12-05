@@ -324,6 +324,10 @@ div.image {
 	margin-right:15px;
 }
 
+.bump {
+	margin-right: 145px;
+}
+
 /* Danielle added contact form and applied CSS to it - inspired by https://www.quackit.com/html/codes/html_form_code.cfm */
 .myForm { 
 	font-family: "Century Gothic";
