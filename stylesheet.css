@@ -297,7 +297,6 @@ div.flexcon { /* Robyn added a id class to contain elements to alow for flex box
 	flex-direction:row;
 	flex-wrap:wrap;
 	justify-content:flex-start;
-	align-items:space-around;
 }
 /* Robyn created profile class id and applied CSS*/
 div.profile {
