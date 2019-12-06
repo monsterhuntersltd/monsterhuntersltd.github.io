@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!-- Sarah Bencic- Overall initial html layout -->
 <!-- Sarah Bencic- Basic Home Page Layout as Discussed altered with CSS and some Mad graphics -->
-<!-- Elaine Bradbee - All the content, video and much of the CSS-->
+<!-- Elaine - All the content, video and much of the CSS-->
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -16,9 +16,14 @@
 <!-- Robyn Added a div for the page to be able to change the colour and have it sit in the middle of a browser -->	
 
 <div id="page"> 
-<h1 id = "title"> MONSTER HUNTERS LTD. </h1> <!-- id assigned by Nathan--><!-- Robyn Added Header -->
-<!-- Nathan - Navigation Bar-->
+<h1 id = "title"> MONSTER HUNTERS LTD. </h1> <!-- Robyn Added Header --> <!-- id assigned by Nathan-->
+
 <!--######################################################################-->
+<!--navigation menu owner Nathan with reference to the following three pages-->
+<!--https://www.w3schools.com/howto/howto_css_menu_icon.asp-->
+<!--https://www.w3schools.com/howto/howto_css_icon_bar.asp-->
+<!--https://www.w3schools.com/howto/howto_js_mobile_navbar.asp-->
+
 <div id="navigation">
 	<div id="click-me">
 		<a href="javascript:void(0);" onclick="clickNavBar()">
@@ -27,7 +32,7 @@
 		<div class = "hamburger"></div>
 	</a></div>
 
-	<div id="icon-bar">
+	<div id="icon-bar"> <!--pop out navigation menu-->
 		<div class = "left">
 			<h4 class="nav">Monster Hunters</h4>
 			<a href="LandingPage.html">Home</a> 
@@ -49,7 +54,7 @@
 <!--######################################################################-->
 
 <!--Nathan found the video on YouTube, and he and Elaine worked on trying to get it mute and autoplay with JavaScript, which did not work.  Elaine then tried CSS, which did not work and finally tried the iFrame, which did.  She was inspired by MDN web docs.  While we know there are 3 errors in validation due to the iFrame, we tried the other methods to make the video do as we wanted, but they were unworkable.  We decided to stick with the iFrame despite the errors.-->	
-<!--<div class = "respContainer">-->
+
 <iframe id="MythicalCreaturesVideo"
 	title="Mythical Creatures Video"
 	width="960" 
@@ -59,17 +64,16 @@
 	mute=1
 	src="https://www.youtube.com/embed/H6LTY3acd0I?controls=0;rel=0&amp;autoplay=1&mute=1" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
-<!--</div>-->
 	
 <h2>Got a MONSTER problem?</h2>
 <p>
 Contact us - we're experts at solving all your monster problems.  No problem is too large or too difficult.
 </p>
 
-<!-- Elaine - Footer-->
 </div>
-<div class="footer">
-	<p class="footer"> Have a monster problem? Call Monster Hunters at: 1-800-NEEDHELP</p>
+	
+<div class="footer"> <!-- footer by Elaine-->
+<p class="footer"> Have a monster problem? Call Monster Hunters at: 1-800-NEED-HELP</p>
 </div>
 
 
