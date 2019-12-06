@@ -18,14 +18,22 @@
 	
 /*#########################################################################*/
 
-/* This part by Nathan November 27, 2019 */
+/* Nathan Nav Bar */
+/* https://www.w3schools.com/howto/howto_css_menu_icon.asp*/
+/* https://www.w3schools.com/howto/howto_css_icon_bar.asp*/
+/* https://www.w3schools.com/howto/howto_js_mobile_navbar.asp*/
 
-.hamburger {					              /*hamburger bars*/
-  width: 35px;					            /*bar width*/
-  height: 5px;					            /*bar height*/
-  background-color: hsla(0,0%,80%,1);			  /*bar colour*/
-  margin: 6px 0px;				          /*spacing between bars*/
+.hamburger {		/*hamburger bars*/
+  width: 35px;		/*bar width*/
+  height: 5px;				/*bar height*/
+  background-color: hsla(0,0%,80%,1);	/*bar colour*/
+  margin: 6px 0px;			/*spacing between bars*/
 }
+
+/*#######################*/
+
+/* https://stackoverflow.com/questions/6910049/on-a-css-hover-event-can-i-change-another-divs-styling*/
+/* http://jsfiddle.net/u7tYE/*/
 
 #click-me {
 width: 35px;
@@ -35,16 +43,16 @@ width: 35px;
 background-color:orange;
 }	
 
-/*https://stackoverflow.com/questions/6910049/on-a-css-hover-event-can-i-change-another-divs-styling*/
-/*http://jsfiddle.net/u7tYE/*/
+/*#######################*/
 
-#icon-bar {				                  /*navigation pop up*/
+#icon-bar {	/*navigation pop up*/
   background-color: #333;
-  position: absolute;				        /*anchored to page*/
-  display: none;				            /*start collapsed*/
+  position: absolute;	/*anchored to page*/
+  display: none;	/*start collapsed*/
   padding-right: 10px;
 }
-#icon-bar a{					              /*navigation links*/
+
+#icon-bar a{		/*navigation links*/
   display: block;
   padding: 16px;
   transition: all 0.3s ease;
@@ -56,14 +64,15 @@ background-color:orange;
   margin-bottom:10px;
   font-family: "Century Gothic";
 }
-#icon-bar a:hover {				          /*navigation links*/
-  background-color: purple; 			/*hover colour chosen by DANILLE*/
+
+#icon-bar a:hover {	/*navigation links*/
+  background-color: purple;
 }
-.left{						                  /*left-align columns*/
+.left{		/*left-align columns*/
 float:left;
 }
 
-h4.nav{						                  /*column headings*/
+h4.nav{		/*column headings*/
 padding:16px;
 color: hsla(0,0%,80%,1);
 font-family: "Century Gothic";
@@ -80,6 +89,7 @@ font-family: "Century Gothic";
 	margin-left: 65px;
 	margin-right:65px;
 }
+
 /*#########################################################################*/
 
 .page-wrap {
@@ -294,7 +304,8 @@ li {
 
 /* Working Skills Bars */
 /* Sarah and Nathan */
-/* NEED REFERENCE */
+/* https://codepen.io/vanillacowboy/pen/qwAmB */
+
 .skill-bar-container {
     position: relative;
     width: 100%;
@@ -309,8 +320,8 @@ li {
         background-color: red;}
 
 .level1 { width: 10%; background-color: orange;}
-.level2 { width: 20%; background-color: orange;}
-.level3 { width: 30%; background-color: orange;}
+/* .level2 { width: 20%; background-color: orange;} not used */
+/* .level3 { width: 30%; background-color: orange;} not used */
 .level4 { width: 40%; background-color: orange;}
 .level5 { width: 50%; background-color: orange;}
 .level6 { width: 60%; background-color: orange;}
