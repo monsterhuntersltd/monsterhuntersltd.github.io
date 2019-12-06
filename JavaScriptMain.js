@@ -1,12 +1,3 @@
-jQuery(document).ready(function(){ 
-	jQuery('.skillbar').each(function(){
-		jQuery(this).find('.skillbar-bar').animate({
-			width:jQuery(this).attr('data-percent')
-		},6000);
-	});
-});
-
-
 /* Written by Danielle for Contact Us page, for the button to show up */
 function getQuote() { 		
 	var y = document.getElementById("quotepage");	/*getting information from .quotepage class*/
@@ -16,6 +7,8 @@ function getQuote() {
   }
 
 /* Nathan Nav Bar */
+/* Reference https://www.w3schools.com/howto/howto_js_mobile_navbar.asp*/
+
 function clickNavBar() { 			/*function definition*/
   var x = document.getElementById("icon-bar");	/*getting information from icon-bar*/
   if (x.style.display === "block") {		/*expanded condition*/
